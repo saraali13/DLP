@@ -29,7 +29,6 @@ horse_testset = Subset(testset, horse_test_indices)
 trainloader = DataLoader(horse_trainset, batch_size=64, shuffle=True)
 testloader = DataLoader(horse_testset, batch_size=64, shuffle=False)
 
-
 def rgb_to_gray(img):
     """Convert RGB image to grayscale using luminance formula"""
     return 0.2989 * img[:, 0, :, :] + 0.5870 * img[:, 1, :, :] + 0.1140 * img[:, 2, :, :]
