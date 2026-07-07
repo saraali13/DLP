@@ -34,3 +34,18 @@
 ● Training should complete within 1–2 hours on such hardware.
 
 ● Use lightweight models (avoid very deep networks).
+
+
+
+
+
+
+
+
+# Output
+
+
+
+
+<img width="1248" height="701" alt="training_losses" src="https://github.com/user-attachments/assets/88321add-c443-4352-b9b4-43a7df6445a7" />
+<img width="1185" height="1219" alt="generated_digits_final" src="https://github.com/user-attachments/assets/c0e07d1b-fed5-4024-984c-c1a2d4512ca9" />
